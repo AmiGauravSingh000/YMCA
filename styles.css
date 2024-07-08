@@ -9,9 +9,12 @@
   --font-family: "Roboto", sans-serif;
   --font-family2: "Antonio";
 }
-
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
   font-family: var(--font-family);
   background-color: var(--bg-color);
   color: var(--primary-color);
@@ -598,6 +601,8 @@ body {
 
 .review-section {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   gap: 20px;
   margin: 20px;
