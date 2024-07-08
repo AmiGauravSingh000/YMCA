@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YMCA</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="Assets/logo.jpg" alt="Logo" class="logo-img" />
+        <img src="Assets/header.svg" alt="Header" class="header-img" />
+      </div>
+      <div class="navbar-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar-links">
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Admissions</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Undergraduate Admissions</a></li>
+            <li><a href="#">Graduate Admissions</a></li>
+            <li><a href="#">International Students</a></li>
+            <li><a href="#">Distance and Online</a></li>
+            <li><a href="#">Cost and Aid </a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Student Services</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Students Corner</a></li>
+            <li><a href="#">Research & Development</a></li>
+            <li><a href="#">Examination</a></li>
+            <li><a href="#">Welfare</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Institutional Info</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Accreditation & Rankings</a></li>
+            <li><a href="#">Recruitments</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Career & Alumni</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Alumni Portal</a></li>
+            <li><a href="#">Training & Placement</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="video-section">
+      <video autoplay muted loop id="bg-video">
+        <source src="Assets/collegeVideo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay"></div>
+      <div class="video-content">
+        <h1>Start Your Story Here</h1>
+        <div class="button-group">
+          <button onclick="location.href='#'">Virtual Tour</button>
+          <button onclick="location.href='#'">Area of Study</button>
+          <button onclick="location.href='#'">About</button>
+        </div>
+      </div>
+    </section>
+    <div class="grid-container">
+      <div class="grid-item hawkeye">BE A YMCAIAN</div>
+      <div class="grid-item story">
+        YMCA is where great stories begin.<br />
+        It's time to start yours. Find out how.
+      </div>
+      <div class="grid-item request-info">
+        <a href="#" class="request-button">REQUEST INFORMATION</a>
+      </div>
+    </div>
+    <section class="image-row">
+      <div class="image-container">
+        <img src="Assets/smallimage1.jpg" alt="Image 1" />
+        <div class="overlay">
+          <div class="overlay-content">
+            <h2>Shri Bandaru Dattatreya</h2>
+            <p>Hon'ble Chancellor & Governor Haryana</p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="Assets/smallimage2.png" alt="Image 2" />
+        <div class="overlay">
+          <div class="overlay-content">
+            <h2>Shri Nayab Singh Saini</h2>
+            <p>Hon'ble Chief Minister Haryana</p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="Assets/smallimage3.jpg" alt="Image 3" />
+        <div class="overlay">
+          <div class="overlay-content">
+            <h2>Prof. S.K. Tomar</h2>
+            <p>Hon'ble Vice-Chancellor</p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="notice-board-btn" class="notice-board-btn">Notices</div>
+
+    <!-- Notice List -->
+    <div id="notice-list" class="notice-list">
+      <h2>Notices</h2>
+      <ul>
+        <li>
+          Published on: 03 July 2024 - Advertisement No. 02/2024 for various
+          Teaching Posts
+        </li>
+        <li>
+          Published on: 03 July 2024 - Quotation for providing Table Glass &
+          Window Glazing in COE & RAC Lab and Plumbing work in VC Residence
+        </li>
+        <li>
+          Published on: 03 July 2024 - Final Date Sheets for Supplementary
+          Examinations July-2024
+        </li>
+        <li>
+          Published on: 03 July 2024 - Date Sheet of Entrance Examination(s) for
+          admission in Post Graduate Courses
+        </li>
+        <li>
+          Published on: 01 July 2024 - Notification regarding Establishment of
+          Socia-Economically Disadvantaged Groups (SEDCs) Cell of the University
+        </li>
+        <li>
+          Published on: 28 June 2024 - Advertisement for engagement of
+          Chair-Professor
+        </li>
+        <li>
+          Published on: 28 June 2024 - Request for Quotation for conduct Green
+          and Environment Audit
+        </li>
+        <li>
+          Published on: 28 June 2024 - Request for Quotation for Air Cooler Big
+        </li>
+        <li>Published on: 27 June 2024 - Advertisement for Library Trainee</li>
+        <li>
+          Published on: 26 June 2024 - Notification & Policy for providing
+          support to pursue higher education to Orphan children
+        </li>
+        <li>
+          Published on: 26 June 2024 - Notification and Guidelines for pursuing
+          two Academic Programmes simultaneously.
+        </li>
+        <li>
+          Published on: 25 June 2024 - Advertisement for Project Associate to
+          work in the DST Haryana Funded Research Project
+        </li>
+        <li>
+          Published on: 18 June 2024 - Extension of last date upto 30.06.2024 to
+          apply admission forms (online) for all UG / PG Courses (Except B.Tech
+          Courses) for the session 2024 - 25.
+        </li>
+        <li>
+          Published on: 14 June 2024 - Date-sheet of Entrance Examinations for
+          admission in the PG Courses of UTD's for the session of 2024-25
+        </li>
+        <li>
+          Published on: 14 June 2024 - Extension of Date for filling of
+          Supplementary (Reappear) Examination forms for June/July 2024
+          Examinations for various UG & PG courses)
+        </li>
+        <li>
+          Published on: 12 June 2024 - Payment of Merit Cum Means Scholarship
+          for the result and attendance of Odd Semester, 2023
+        </li>
+        <li>
+          Published on: 12 June 2024 - Walk-in-interview for engagement of Guest
+          faculty in Department of Communication and Media Technology
+        </li>
+        <li>
+          Published on: 07 June 2024 - Notice for presentation on Teaching
+          Skills and Interview for the post of Assistant Professor –
+          Biotechnology and Microbiology (UR & SC Category) in the Department of
+          Life Sciences (on regular basis) against Advt. No. 06/2023
+        </li>
+        <li>
+          Published on: 07 June 2024 - Conducting Industrial Internship Viva
+          Voce exam of B.Tech. 8th semester all branches, MCA (4th Sem), MA(JMC)
+          (4th Sem) and B.Sc. Animation (6th Sem), M.Sc. Animation (4th Sem)
+          students (2024 passing out batch) in two slots
+        </li>
+        <li>
+          Published on: 05 June 2024 - Schedule for submission of Continuation
+          Return (CR) in respect of all UG/PG courses running in affiliated
+          Institutes for AY 2024-25.
+        </li>
+        <li>Published on: 29 May 2024 - Award of Ph.D Degree</li>
+        <li>
+          Published on: 29 May 2024 - MOOC Enrollment Notice for Semester
+          Jan-May 2024
+        </li>
+        <li>
+          Published on: 08 May 2024 - Schedule for filling of Examination forms
+          for Supplementary (Reappear) Exams July/August-2024
+        </li>
+        <li>
+          Published on: 25 April 2024 - Detainment of students studying in Even
+          Semester of All UG/PG Programmes for Academic Year-2023-24 due to
+          shortage of attendance
+        </li>
+        <li>
+          Published on: 20 March 2024 - “Seminar” on Anti-ragging in
+          Collaboration with Proctor Committee
+        </li>
+        <li>
+          Published on: 20 March 2024 - Scrutiny of application forms for the
+          posts of Assistant Professor – Microbiology in the Department of Life
+          Sciences against Advt. No. 06/2023
+        </li>
+        <li>
+          Published on: 20 March 2024 - Result for the JRF position in the SERB
+          SURE Research Project
+        </li>
+        <li>
+          Published on: 20 March 2024 - Scrutiny of application forms for the
+          posts of Assistant Professor in the Department of Chemistry against
+          Advt. No. 06/2023
+        </li>
+        <li>
+          Published on: 06 March 2024 - Result for the post of Project Assistant
+          in SERB-SURE Project
+        </li>
+        <li>
+          Published on: 06 March 2024 - Advisory regarding security of Computer
+          Systems and Data
+        </li>
+        <li>
+          Published on: 04 March 2024 - Advisory regarding using of Pirated
+          Software
+        </li>
+        <li>Published on: 29 February 2024 - Award of ph.D Degree</li>
+        <li>
+          Published on: 16 February 2024 - Decision of the UMC Committee
+          constituted for the December/January 2023-24 Examinations
+        </li>
+        <li>
+          Published on: 08 February 2024 - NOTICE REGARDING DEGREE PDF OF
+          MAY-2023 (UG/PG) PASSOUT STUDENTS OF UTD’s
+        </li>
+        <li>
+          Published on: 25 January 2024 - Question paper and answer key of
+          written test held on 07.02.2024
+        </li>
+        <li>
+          Published on: 25 January 2024 - Question paper and answer key of
+          written test held on 25.01.2024
+        </li>
+        <li>
+          Published on: 19 January 2024 - Result list of applicants selected for
+          the various non-teaching _ technical posts advertised vide Advt. No.
+          01/2023
+        </li>
+        <li>
+          Published on: 11 January 2024 - Criteria for Short-listing/ Selection
+          of candidate for the posts of Assistant Professor against Advt. No.
+          06/2023
+        </li>
+        <li>
+          Published on: 11 January 2024 - Short-listing of applicants and Notice
+          for Written Test for the post of Assistant Professor in the Department
+          of Electrical Engineering (on regular basis) (UR Category) against
+          Advt. No. 04_2023
+        </li>
+        <li>
+          Published on: 10 January 2024 - Short-listing of applicants and Notice
+          for Written Test for the post of Assistant Professor in the Department
+          of Mechanical Engineering (on regular basis) (UR Category) against
+          Advt. No. 04_2023
+        </li>
+      </ul>
+    </div>
+    <!-- chatbot code -->
+    <div id="chatBot-btn" class="chatbot-btn">ymcAI</div>
+
+    <div class="chat-container" id="chat-container">
+      <div class="chat-box" id="chat-box">
+        <div class="message bot-message">
+          Hi! I'm your college assistant. How can I help you today?
+        </div>
+      </div>
+
+      <div class="chatbot-input">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Ask me anything about the college..."
+        />
+        <button id="sendBtn">Send</button>
+      </div>
+    </div>
+
+    <div class="theflowChart">
+      <div class="checkers__item">
+        <img src="Assets/1CollegeCampusImage.jpeg" alt="" />
+      </div>
+      <div class="checkers__item">
+        <h1>A+</h1>
+        <p>The University has been re-accredited by NAAC with an 'A+' Grade</p>
+      </div>
+      <div class="checkers__item">
+        <h1>10000+</h1>
+        <p>
+          Alumnies Network to support students and build an unforgettable
+          Institute experience
+        </p>
+      </div>
+      <div class="checkers__item"><img src="Assets/2Alumni.png" alt="" /></div>
+      <div class="checkers__item">
+        <img src="Assets/3company.jpg" alt="" />
+      </div>
+      <div class="checkers__item">
+        <h1>100+</h1>
+        <p>
+          Companies visit to recuit students including Samsung, Zenon and Adobe
+          etc.
+        </p>
+      </div>
+      <div class="checkers__item">
+        <h1>80%</h1>
+        <p>Placement rate in Computer Science Branches Speically. etc.</p>
+      </div>
+      <div class="checkers__item">
+        <img src="Assets/Placement.jpg" alt="" />
+      </div>
+    </div>
+    <div class="mainReviewSection">
+      <h1 class="ReviewMainHeading">Hear From Everyone</h1>
+      <div class="review-section">
+        <div class="review">
+          <img
+            src="Assets/collegeDekhoLogo.png"
+            alt="Review Image 1"
+            class="review-image"
+          />
+          <div class="rating">
+            <div class="stars">
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star">★</span>
+            </div>
+            <span class="score">4.0</span>
+          </div>
+          <p class="review-text">
+            This is a sample review text for the first review.
+          </p>
+        </div>
+        <div class="review">
+          <img
+            src="Assets/Carrers360.png"
+            alt="Review Image 2"
+            class="review-image"
+          />
+          <div class="rating">
+            <div class="stars">
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star">★</span>
+            </div>
+            <span class="score">3.9</span>
+          </div>
+          <p class="review-text">
+            This is a sample review text for the second review.
+          </p>
+        </div>
+        <div class="review">
+          <img
+            src="Assets/collegeDuniya.jpeg"
+            alt="Review Image 3"
+            class="review-image"
+          />
+          <div class="rating">
+            <div class="stars">
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star">★</span>
+            </div>
+            <span class="score">3.7</span>
+          </div>
+          <p class="review-text">
+            This is a sample review text for the third review.
+          </p>
+        </div>
+        <div class="review">
+          <img
+            src="Assets/Siksha.jpg"
+            alt="Review Image 3"
+            class="review-image"
+          />
+          <div class="rating">
+            <div class="stars">
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star">★</span>
+            </div>
+            <span class="score">3.6</span>
+          </div>
+          <p class="review-text">
+            This is a sample review text for the third review.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
